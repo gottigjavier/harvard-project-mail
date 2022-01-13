@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}Mail{% endblock %}</title>
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+       --> <link href="https://unpkg.com/ed-grid@3.0.0/src/css/ed-grid.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'mail/styles.css' %}">
+        {% block script %}
+        {% endblock %}
+    </head>
+    <body class="" >
+        <div class="ed-container">
+            <div class="ed-item" >
+                {% block body %}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

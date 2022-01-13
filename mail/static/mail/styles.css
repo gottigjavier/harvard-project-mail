@@ -1,0 +1,38 @@
+.logout-button {
+    text-decoration: none;
+    text-shadow: none;
+    size: 0.3rem 0.8rem;
+    font-size: small;
+    margin-left: 2rem;
+    }
+
+textarea {
+    min-height: 400px;
+}
+
+#message {
+    background-color: snow;
+    width: 100%;
+    height: 30rem;
+    overflow: auto;
+}
+
+.mail-row:hover {
+    background-color: lightsteelblue !important;
+}
+
+.unread {
+    background-color: white;
+}
+
+.read {
+    background-color: lightgray;
+}
+
+.checked {
+    background-color: springgreen;
+}
+
+.unchecked {
+    background-color: yellowgreen;
+}
